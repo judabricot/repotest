@@ -1,0 +1,76 @@
+div {
+  padding: 20px;
+  margin: 20px;
+  background: red;
+  -webkit-animation: 1s 1 both appar;
+          animation: 1s 1 both appar;
+}
+
+@-webkit-keyframes appar {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes appar {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.anim1 {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+.anim2 {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+.anim3 {
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+
+.anim4 {
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
+}
+
+.anim5 {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.anim6 {
+  -webkit-animation-delay: 2.4s;
+          animation-delay: 2.4s;
+}
+
+.anim7 {
+  -webkit-animation-delay: 2.8s;
+          animation-delay: 2.8s;
+}
+
+.anim8 {
+  -webkit-animation-delay: 3.2s;
+          animation-delay: 3.2s;
+}
+
+.anim9 {
+  -webkit-animation-delay: 3.6s;
+          animation-delay: 3.6s;
+}
+
+.anim10 {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+/*# sourceMappingURL=style.css.map */

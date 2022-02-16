@@ -1,0 +1,21 @@
+div {
+    padding:20px;
+    margin: 20px;
+    background: red;
+    animation: 1s 1 both appar;
+}
+
+@keyframes appar {
+
+    from {opacity: 0;}
+    to {opacity:1 ;}
+    
+}
+
+$mondelai : 0.4s;
+
+@for $i from 1 through 10 {
+    .anim#{$i} {
+        animation-delay: $mondelai * $i ;
+    }
+}
